@@ -1,0 +1,39 @@
+h1 {
+  -webkit-text-decoration: underline solid red;
+          text-decoration: underline solid red;
+  text-align: center;
+}
+
+body {
+  background-color: green;
+  color: black;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 30px;
+}
+
+div img {
+  width: 500px;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  body div {
+    display: block;
+  }
+  div p {
+    width: 100%;
+    color: black;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
